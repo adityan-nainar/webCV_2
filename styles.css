@@ -1,0 +1,70 @@
+html{
+    overflow-x: hidden;
+}
+
+/* NAVBAR CSS */
+        
+        .container1{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+            margin-top: 20px;
+        }
+
+        .container2{
+            display: flex;
+            justify-content: end;
+            gap: 20%;
+        }
+
+        .container1 ul{
+            list-style: none;
+            font-size: 120%;
+        }
+
+        #menuIcon{
+            display: none;
+        }
+/* ------------------ */
+
+
+/* Hero sectionnnn */
+.titleCon{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.title{
+    margin: 0%;
+    font-size:100px;
+    width: 100%;
+    font-family: sans-serif,;
+}
+
+.titleCon img{
+    height: 80%;
+    width: auto;
+    /* object-fit: cover; */
+}
+
+.texttitle{
+    padding: 20px;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:900px){
+    .container2{
+        display: none;
+    }
+
+    #menuIcon{
+        display: flex;
+    }
+
+    .title{
+        font-size: 90px;
+    }
+}
